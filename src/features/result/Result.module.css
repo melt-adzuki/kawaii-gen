@@ -1,0 +1,137 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 64px;
+    padding: 64px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(212, 212, 212);
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper {
+        flex-direction: row;
+    }
+}
+
+.title {
+    font-size: 32px;
+}
+
+.title > span {
+    display: inline-block;
+}
+
+.friendlyName {
+    font-weight: bold;
+}
+
+.result {
+    background-color: white;
+    border-radius: 16px;
+    padding: 32px;
+    width: 100%;
+    max-width: 768px;
+}
+
+.result > div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    transition: opacity 1s ease-in-out;
+}
+
+.result_reversed > div {
+    flex-direction: column-reverse;
+}
+
+.result > div > button {
+    text-align: center;
+    padding: 16px;
+    width: 100%;
+    height: 64px;
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.result > div > button:hover {
+    opacity: 0.8;
+}
+
+.dummyButton {
+    opacity: 0 !important;
+    cursor: auto !important;
+}
+
+.floatingButton {
+    position: absolute;
+    text-align: center;
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    padding: 16px;
+    width: 50vw;
+    height: 64px;
+    max-width: 768px;
+    transition: transform 1s ease-in;
+}
+
+.survey > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.survey > div > span {
+    width: 64px;
+}
+
+.survey > div > div {
+    position: relative;
+    padding: 16px;
+    width: 100%;
+    height: 64px;
+    background-color: rgb(223, 230, 243);
+    border-radius: 8px;
+}
+
+.survey > div > div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 8px;
+    background-color: #58cbff;
+    transition: width 1s cubic-bezier(0.25, 0, 0, 1);
+}
+
+.survey > div > div > span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.control {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    position: absolute;
+    top: -64px;
+    left: 64px;
+    background-color: white;
+    border-radius: 100vw;
+    padding: 16px;
+    transition: top 1s cubic-bezier(0, 0, 0, 1) 3s;
+}
+
+.controlButton {
+    width: 32px;
+    cursor: pointer;
+}
