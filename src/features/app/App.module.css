@@ -1,9 +1,7 @@
-.container {
+.wrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-top: 64px;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .jumbotron {
@@ -12,7 +10,7 @@
   align-items: center;
   background-color: #f1f1f1;
   width: 100%;
-  height: 320px;
+  min-height: 320px;
 }
 
 .jumbotron > h1 {
@@ -21,19 +19,26 @@
   font-weight: bold;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-block: 128px;
+}
+
 .footer {
-  position: fixed;
-  bottom: 0;
   width: 100%;
   padding: 32px;
-  color: white;
+  margin-top: auto;
   background-color: rgb(44, 44, 44);
 }
 
-.footer > small {
+.footer > div {
+  color: white;
   text-align: center;
 }
 
-.footer > small > p > a {
+.footer a {
   color: rgb(201, 201, 201);
 }
