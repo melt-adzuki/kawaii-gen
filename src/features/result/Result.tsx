@@ -101,8 +101,8 @@ const Result = (): JSX.Element => {
             }
 
             <div className={styles.control} style={screenStatus === "result" ? { top: "64px" } : {}}>
-                <img src={back} alt="戻る" onClick={() => navigateToRootPage()} className={styles.controlButton} />
-                <img src={copy} alt="リンクをコピーする" onClick={() => copyToClipboard()} className={styles.controlButton} />
+                <img src={back} alt="戻る" onClick={() => navigateToRootPage()} />
+                <img src={copy} alt="リンクをコピーする" onClick={() => copyToClipboard()} />
             </div>
         </main>
     )

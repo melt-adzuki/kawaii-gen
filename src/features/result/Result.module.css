@@ -49,7 +49,7 @@
     flex-direction: column-reverse;
 }
 
-.result > div > button {
+.result button {
     text-align: center;
     padding: 16px;
     width: 100%;
@@ -60,7 +60,7 @@
     cursor: pointer;
 }
 
-.result > div > button:hover {
+.result button:hover {
     opacity: 0.8;
 }
 
@@ -133,7 +133,7 @@
     transition: top 1s cubic-bezier(0, 0, 0, 1) 3s;
 }
 
-.controlButton {
+.control > img {
     width: 32px;
     cursor: pointer;
 }
