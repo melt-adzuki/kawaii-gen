@@ -1,6 +1,7 @@
 {
   "name": "kawaii-gen",
   "version": "0.1.0",
+  "homepage": "https://hijiki02.github.io/kawaii-gen",
   "dependencies": {
     "@reduxjs/toolkit": "^1.7.1",
     "@types/node": "^12.20.42",
