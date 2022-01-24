@@ -9,6 +9,12 @@
     "@types/react-dom": "^16.9.14",
     "@types/react-redux": "^7.1.22",
     "@types/react-transition-group": "^4.4.4",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "qs": "^6.10.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -23,13 +29,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "lint": "eslint --fix --ext \".js,.ts,.jsx,.tsx\" --ignore-path .gitignore .",
     "build": "react-scripts build",
     "postbuild": "cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
