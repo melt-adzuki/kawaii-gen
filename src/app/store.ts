@@ -2,9 +2,9 @@ import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit"
 import configReducer from "../features/config/configSlice"
 
 export const store = configureStore({
-  reducer: {
-    config: configReducer,
-  },
+	reducer: {
+		config: configReducer,
+	},
 })
 
 export type AppDispatch = typeof store.dispatch;

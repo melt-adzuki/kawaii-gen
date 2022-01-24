@@ -127,13 +127,14 @@
     position: absolute;
     top: -64px;
     left: 64px;
+    line-height: 0;
     background-color: white;
     border-radius: 100vw;
     padding: 16px;
     transition: top 1s cubic-bezier(0, 0, 0, 1) 3s;
 }
 
-.control > img {
+.control img {
     width: 32px;
     cursor: pointer;
 }

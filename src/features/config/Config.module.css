@@ -39,20 +39,20 @@
   margin-top: var(--margin);
 }
 
-.forceNegative > input {
+.forceNegative input {
   background-color: white;
   width: 32px;
   height: 32px;
   border: 5px solid var(--color-border);
-  margin-right: 16px;
+  margin-left: 16px;
   vertical-align: middle;
 }
 
-.forceNegative > input:checked {
+.forceNegative input:checked {
   background-image: url("./checkmark.svg");
 }
 
-.forceNegative > label {
+.forceNegative label {
   font-size: 20px;
   vertical-align: middle;
 }
