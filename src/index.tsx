@@ -11,7 +11,7 @@ import Result from "./features/result/Result"
 ReactDOM.render(
 	<React.StrictMode>
 		<Provider store={store}>
-			<BrowserRouter basename={process.env.PUBLIC_URL}>
+			<BrowserRouter>
 				<Routes>
 					<Route path="/" element={<App />} />
 					<Route path="result" element={<Result />} />
