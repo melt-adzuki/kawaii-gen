@@ -19,7 +19,7 @@ const App = (): JSX.Element => (
 				<p>This project is licensed under MIT.</p>
 				<p>
 					The source code is available on
-					<a href="https://github.com/hijiki02/kawaii-gen" target="_blank" rel="noreferrer"> the project in GitHub</a>
+					<a href="https://github.com/melt-adzuki/kawaii-gen" target="_blank" rel="noreferrer"> the project in GitHub</a>
 					.
 				</p>
 				<br />

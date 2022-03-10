@@ -1,7 +1,7 @@
 {
   "name": "kawaii-gen",
   "version": "0.1.0",
-  "homepage": "https://hijiki02.github.io/kawaii-gen",
+  "homepage": "https://kawaii.azuki.cf",
   "dependencies": {
     "@reduxjs/toolkit": "^1.7.1",
     "@types/node": "^12.20.42",
@@ -31,7 +31,6 @@
     "start": "react-scripts start",
     "lint": "eslint --fix --ext \".js,.ts,.jsx,.tsx\" --ignore-path .gitignore .",
     "build": "react-scripts build",
-    "postbuild": "cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
